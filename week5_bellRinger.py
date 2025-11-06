@@ -53,21 +53,33 @@ print(reversed_words)
 
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
+motto = ["Make", "haste", "slowly."]
 # a. Convert the list into a single string.
+joined_motto = ' '.join(motto)
+print(joined_motto)
+joined_motto_split = joined_motto_split ('a')
+print(joined_motto_split)
+
 # b. Now, split the string at every occurrence of the letter 'a'.
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
+sentence = "Life is what happens when you are busy making other plans."
+replaced_sentence = print(sentence.replace('busy', 'distracted').replace('plans', 'mistakes'))
+
 # a. Replace "busy" with "distracted".
 # b. Replace "plans" with "mistakes".
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+repeated_word = print('iteration ' *7)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
-
+word = "freedom"
+quote = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+word_in_quote = print(word in quote)
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
